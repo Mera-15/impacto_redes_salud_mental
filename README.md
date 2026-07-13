@@ -1,4 +1,5 @@
 # 🧠 Impacto de las Redes Sociales en la Salud Mental Adolescente
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mera-15/impacto_redes_salud_mental/blob/main/analisis_redes_salud_mental.ipynb)
 
 ## 📊 Contexto del Proyecto
 Este proyecto es un Análisis Exploratorio de Datos (EDA) diseñado para investigar y cuantificar la relación empírica entre los hábitos de consumo de redes sociales y los indicadores de salud mental en adolescentes. 
