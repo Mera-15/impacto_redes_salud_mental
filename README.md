@@ -18,9 +18,18 @@ Este proyecto es un Análisis Exploratorio de Datos (EDA) diseñado para investi
 
 <img width="1743" height="465" alt="Sin título1" src="https://github.com/user-attachments/assets/dc2c85f8-a587-48f1-85ab-d3a2b7ce53e3" />
 
-**2. Impacto del Género en la Depresión (En proceso)**
+**2. Impacto del Género en la Depresión**
 * *Hipótesis:* Ante niveles similares de uso, el género influye en la propensión a reportar síntomas.
-* *Hallazgo:* [Procesando datos...].
+* *Hallazgo:* Al desglosar la tasa de depresión por género en los grupos de alto consumo (5 horas o más), se observa una clara tendencia de vulnerabilidad diferenciada:
+  * En los segmentos de **5, 6 y 7 horas diarias**, el porcentaje de mujeres con depresión supera consistentemente al de los hombres. (Por ejemplo, a las 5 horas de uso, la tasa en mujeres es del 6.1% frente al 3.1% en hombres). Curiosamente, en el pico máximo de uso registrado (8 horas diarias), la tendencia se invierte levemente, presentando los hombres una tasa de depresión mayor (10.7%) en comparación con las mujeres (9.1%).
+En conclusión, la hipótesis se sostiene para la gran mayoría de los casos analizados. Existe una brecha de género donde las mujeres muestran mayor susceptibilidad a la depresión ante el mismo nivel de exposición a las redes, aunque en niveles de consumo extremo (8 horas), el impacto resulta severo para ambos géneros.
+
+<img width="1745" height="473" alt="Sin título2" src="https://github.com/user-attachments/assets/81fd99bc-caf1-4e37-a161-001b004b2519" />
+
+### 3. Ejercicio Físico vs. Tiempo en Redes (En proceso ⏳)
+**Hipótesis:** *Existe una relación inversamente proporcional entre la frecuencia de ejercicio físico y el tiempo de uso de redes sociales.*
+
+**Estado:** [Actualmente realizando el Análisis Exploratorio de Datos (EDA) para evaluar esta métrica y diseñar la visualización correspondiente.]
 
 ## 📂 Estructura del Repositorio
 * `analisis_redes_salud_mental.ipynb`: Cuaderno de Google Colab con el código fuente, limpieza y visualizaciones interactivas.
