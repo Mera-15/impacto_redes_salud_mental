@@ -4,11 +4,34 @@
 ## 📊 Contexto del Proyecto
 Este proyecto es un Análisis Exploratorio de Datos (EDA) diseñado para investigar y cuantificar la relación empírica entre los hábitos de consumo de redes sociales y los indicadores de salud mental en adolescentes. 
 
+### 📂 Fuente de Datos
+
+El conjunto de datos utilizado para este análisis es de dominio público y fue obtenido a través de **Kaggle**. Puedes acceder al archivo original detallando las métricas en el siguiente enlace:
+* [Impact of Social Media on Teen's Mental Health](https://www.kaggle.com/datasets/itszubi/impact-of-social-media-on-teens-mental-health)
+
 ## 🛠️ Herramientas y Tecnologías
 * **Lenguaje:** Python
 * **Manipulación y Limpieza de Datos:** Pandas
 * **Visualización de Datos:** Plotly Express
 * **Exploración Inicial:** ydata-profiling
+
+## 📕 Diccionario de Datos
+
+| Columna | Descripción |
+| :--- | :--- |
+| **age** | Edad del adolescente en años. |
+| **gender** | Género del individuo. |
+| **daily_social_media_hours** | Promedio de horas diarias invertidas en redes sociales. |
+| **platform_usage** | Principal plataforma de red social utilizada. |
+| **sleep_hours** | Promedio de horas de sueño por día. |
+| **screen_time_before_sleep** | Horas de uso de pantallas antes de dormir. |
+| **academic_performance** | Puntaje de rendimiento académico (GPA). |
+| **physical_activity** | Nivel de actividad física diaria medida en horas. |
+| **social_interaction_level** | Nivel de interacción social en el mundo real (bajo, medio, alto). |
+| **stress_level** | Puntaje medido del nivel de estrés. |
+| **anxiety_level** | Puntaje medido del nivel de ansiedad. |
+| **addiction_level** | Puntaje de intensidad de adicción a las redes sociales. |
+| **depression_label** | Variable binaria que indica la presencia de depresión (0 = No, 1 = Sí). |
 
 ## 🔍 Hipótesis y Hallazgos Clave
 
@@ -26,10 +49,12 @@ En conclusión, la hipótesis se sostiene para la gran mayoría de los casos ana
 
 <img width="1745" height="473" alt="Sin título2" src="https://github.com/user-attachments/assets/81fd99bc-caf1-4e37-a161-001b004b2519" />
 
-### 3. Ejercicio Físico vs. Tiempo en Redes (En proceso ⏳)
-**Hipótesis:** *Existe una relación inversamente proporcional entre la frecuencia de ejercicio físico y el tiempo de uso de redes sociales.*
+### 3. Ejercicio Físico vs. Tiempo en Redes
+* *Hipótesis:* *Existe una relación inversamente proporcional entre la frecuencia de ejercicio físico y el tiempo de uso de redes sociales.*
+* *Hallazgo:* Al analizar el promedio de horas de actividad física frente a las horas diarias de uso de redes, no se observa ninguna correlación. Independientemente de si los adolescentes pasan 1 u 8 horas frente a las pantallas, el promedio de actividad física se mantiene constante y estable, rondando en todos los grupos aproximadamente 1 hora diaria (valores entre 0.94 y 1.11).
+  * En la muestra analizada, el tiempo invertido en redes sociales no actúa como un factor de desplazamiento para el ejercicio físico. El nivel de sedentarismo o actividad se mantiene independiente del consumo digital.
 
-**Estado:** [Actualmente realizando el Análisis Exploratorio de Datos (EDA) para evaluar esta métrica y diseñar la visualización correspondiente.]
+<img width="1745" height="470" alt="Sin título3" src="https://github.com/user-attachments/assets/fe47a1d5-f29f-4c04-9d04-bbb89799d210" />
 
 ## 📂 Estructura del Repositorio
 * `analisis_redes_salud_mental.ipynb`: Cuaderno de Google Colab con el código fuente, limpieza y visualizaciones interactivas.
